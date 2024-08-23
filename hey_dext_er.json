@@ -1,12 +1,12 @@
 {
-    "input_shape": [
-        1,
-        16,
-        96
-    ],
-    "output_shape": [
-        1,
-        1
-    ],
-    "layers": []
+  "type": "micro",
+  "wake_word": "hey_dext_er",
+  "author": "Thijs Mathot",
+  "website": "https://www.lynseyandthijs.com/",
+  "model": "./hey_dext_er.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.66,
+    "sliding_window_average_size": 10
+  }
 }
