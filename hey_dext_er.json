@@ -3,10 +3,15 @@
   "wake_word": "hey_dext_er",
   "author": "Thijs Mathot",
   "website": "https://www.lynseyandthijs.com/",
-  "model": "./hey_dext_er.tflite",
-  "version": 1,
+  "model": "hey_dext_er.tflite",
+  "trained_languages": ["en"],
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.66,
-    "sliding_window_average_size": 10
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
+
