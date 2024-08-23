@@ -5,6 +5,7 @@
   "website": "https://www.lynseyandthijs.com/",
   "model": "hey_dext_er.tflite",
   "trained_languages": ["en"],
+  "version": 1
   "micro": {
     "probability_cutoff": 0.66,
     "feature_step_size": 10,
