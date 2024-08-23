@@ -1,0 +1,12 @@
+{
+    "input_shape": [
+        1,
+        16,
+        96
+    ],
+    "output_shape": [
+        1,
+        1
+    ],
+    "layers": []
+}
